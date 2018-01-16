@@ -69,8 +69,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new BrowserSyncPlugin(
       {
         host: 'localhost',
-        port: 6060,
-        proxy: 'http://localhost:6060/'
+        port: 8080,
+        proxy: 'http://localhost:8080/'
       },
       {
         reload: false
